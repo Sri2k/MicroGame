@@ -14,3 +14,4 @@
 bin/    
 # ignore any files with .obj postfix
 *.obj   
+obj/
