@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\gandu\\.nuget\\packages\\",
-        "outputPath": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gandu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
