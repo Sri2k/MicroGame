@@ -20,9 +20,11 @@ namespace Play.Catalog.Services.Controllers
         }
 
         [HttpGet("{Id}")]
-        public ItemDto? GetById(Guid Id)
+        public ActionResult<ItemDto> GetById(Guid Id)
         {
             var item = items.Where(x => x.Id == Id).SingleOrDefault();
+            if (item == null)
+                return NotFound();
             return item;
         }
         [HttpPost]
@@ -37,23 +39,26 @@ namespace Play.Catalog.Services.Controllers
         {
 #pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
             ItemDto existingItem = items.Where(x => x.Id == Id).SingleOrDefault();
+            if(existingItem == null)
+                return NotFound();
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
             ItemDto updateItem = existingItem with
             {
                 Name = updateItemDto.Name,
                 Description = updateItemDto.Description,
                 Price = updateItemDto.Price,
             };
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
-            var index = items.FindIndex(x=>x.Id == Id);
+            var index = items.FindIndex(x => x.Id == Id);
             items[index] = updateItem;
             return NoContent();
         }
 
         [HttpDelete("{Id}")]
-        public IActionResult Delete(Guid Id){
+        public IActionResult Delete(Guid Id)
+        {
             var index = items.FindIndex(x => x.Id == Id);
+            if(index<0)
+                return NotFound();
             items.RemoveAt(index);
             return NoContent();
         }
