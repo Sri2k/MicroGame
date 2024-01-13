@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "m2zrPbq9ejacTIXluWcB7C+aXsa4GBZk0mOOYPXo1O3ASVnB/p65HsQLUa+ZfWsjhlG8uV8I9VXfg1FTgWTZaA==",
+=======
+  "dgSpecHash": "mlNK0wLo8UF3v3GL0VnA3gPrbdUkh4R4NRRFCaqie+Jl/TxOeBQtWZdIJK2yNkfMLcdnMAed9Mijw25KDnJ+/g==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
