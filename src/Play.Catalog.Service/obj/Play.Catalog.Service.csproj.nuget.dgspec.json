@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\gandu\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "d:\\Practice\\MicroServices_Game\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gandu\\AppData\\Roaming\\NuGet\\NuGet.Config",
