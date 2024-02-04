@@ -31,3 +31,16 @@ d:\Practice\MicroServices_Game\src\Play.Catalog.Service\obj\Debug\net7.0\refint\
 d:\Practice\MicroServices_Game\src\Play.Catalog.Service\obj\Debug\net7.0\Play.Catalog.Service.pdb
 d:\Practice\MicroServices_Game\src\Play.Catalog.Service\obj\Debug\net7.0\Play.Catalog.Service.genruntimeconfig.cache
 d:\Practice\MicroServices_Game\src\Play.Catalog.Service\obj\Debug\net7.0\ref\Play.Catalog.Service.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\AWSSDK.Core.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\AWSSDK.SecurityToken.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\DnsClient.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\MongoDB.Bson.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\MongoDB.Driver.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\MongoDB.Driver.Core.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\MongoDB.Libmongocrypt.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\SharpCompress.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\Snappier.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\ZstdSharp.dll
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Practice\MicroServices_Game\src\Play.Catalog.Service\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
