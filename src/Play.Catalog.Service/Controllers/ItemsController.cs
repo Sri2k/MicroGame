@@ -68,7 +68,7 @@ namespace Play.Catalog.Services.Controllers
             {
                 return NotFound();
             }
-            await itemRepository.RemoveAsync(exisitingItem.Id)
+            await itemRepository.RemoveAsync(exisitingItem.Id);
             return NoContent();
         }
 
